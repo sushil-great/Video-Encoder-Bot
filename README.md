@@ -1,5 +1,9 @@
 # Video-Encoder-Bot
  a telegram bot for compressing/encoding videos in h264 format.
+ 
+### Dont Deploy
+ - Heroku Is banning all accounts with this repo.
+ - You Have been warned.
 
 ### Configuration
 Add values in environment variables or add them in [config.env.example](/VideoEncoder/config.env.example) and rename file to `config.env`.
@@ -22,14 +26,14 @@ Add values in environment variables or add them in [config.env.example](/VideoEn
 ## Encode Telegram Bot Guide
 Encode Settings
 
--RESOLUTION
+- RESOLUTION
 Source 
 1080 
 720 
 480 
 360 
 
--PRESET
+ - PRESET
 Press here for a detailed explanation.
 uf = ultrafast
 sf = superfast
@@ -37,18 +41,18 @@ vf = veryfast
 f = fast
 m = medium
 
--TUNE
+ - TUNE
 Press here for a detailed explanation.
 Value to be written will be exact same for above explanation.
  
--AUDIO (Codec)
+ - AUDIO (Codec)
 opus
 aac
 copy
 
--CRF
+ - CRF
 It's percentage of compress rate
-15 - 40
+15 to 40
 
 
 **Optional**
