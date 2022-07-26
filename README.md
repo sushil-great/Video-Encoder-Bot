@@ -19,6 +19,38 @@ Add values in environment variables or add them in [config.env.example](/VideoEn
 - `AUDIO` - [Click Here](https://weeb-zone.blogspot.com/p/encode-telegram-bot-guide.html)
 - `CRF` - [Click Here](https://weeb-zone.blogspot.com/p/encode-telegram-bot-guide.html)
 
+## Encode Telegram Bot Guide
+Encode Settings
+
+-RESOLUTION
+Source 
+1080 
+720 
+480 
+360 
+
+-PRESET
+Press here for a detailed explanation.
+uf = ultrafast
+sf = superfast
+vf = veryfast
+f = fast
+m = medium
+
+-TUNE
+Press here for a detailed explanation.
+Value to be written will be exact same for above explanation.
+ 
+-AUDIO (Codec)
+opus
+aac
+copy
+
+-CRF
+It's percentage of compress rate
+15 - 40
+
+
 **Optional**
 - `DOC_THUMB` - (Optional) Thumbnail for document
 - `UPLOAD_AS_DOC` - (Optional) Uploads Video as doc if `1` else `0`.
