@@ -19,27 +19,35 @@
             "required": "True"
         },
         "PRESET": {
-            "Value": "sf",
+            "Description": "sf",
             "required": "True"
         },
         "TUNE": {
-            "Value": "film",
+            "Description": "animation",
             "required": "false"
         },
         "AUDIO": {
-            "Value": "AAC",
+            "Description": "COPY",
             "required": "false"
         },
         "UPLOAD_AS_DOC": {
-            "Value": "0",
+            "Description": "0",
             "required": "false"
         },
+        "RESOLUTION": {
+            "Description": "Source,1080,720,480,360",
+            "required": "false"
+       },
         "DOWNLOAD_DIR": {
-            "Value": "VideoEncoder/utils/downloads/",
+            "Description": "VideoEncoder/utils/downloads/",
             "required": "false"
         },
+        "CRF": {
+            "Description": "28",
+            "required": "false"
+       },
         "ENCODE_DIR": {
-            "Value": "VideoEncoder/utils/encodes/",
+            "Description": "VideoEncoder/utils/encodes/",
             "required": "false"
         }
   },
