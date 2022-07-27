@@ -15,7 +15,7 @@
             "required": "True"
         },
         "SUDO_USERS": {
-            "description": "",
+            "description": "960208070",
             "required": "True"
         },
         "PRESET": {
@@ -27,7 +27,7 @@
             "required": "false"
         },
         "AUDIO": {
-            "Description": "COPY",
+            "Description": "AAC",
             "required": "false"
         },
         "UPLOAD_AS_DOC": {
